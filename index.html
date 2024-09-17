@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #5a5ac5;
+        }
+        .card-custom {
+            border-radius: 20px;
+        }
+        .navbar-custom {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 10px 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .nav-item {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://img.freepik.com/premium-photo/professional-trader-investor-set-desk-look-big-trading-charts-screens_741910-4005.jpg" alt="User Avatar" class="rounded-circle" width="50">
+                Olivia 
+                Miller
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </ul>
+                <span class="navbar-text">
+                    Welcome back, Yossi!
+                </span>
+                <img src="https://media.istockphoto.com/id/1098036052/photo/handsome-smiling-business-man-in-blue-shirt-standing-with-crossed-arms-isolated-on-white.jpg?s=612x612&w=0&k=20&c=WJ8lt_hw_pb1qvj5i90S2K2nnsmHood0WTOPvxdcHKg="  alt= "profile" class="rounded-circle" width="100" >
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-custom mb-4">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom active" href="#">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhBmkjFgEzOt1SAfBkHnWxJrpvrzSd6resFw&s" class="nav-icons" alt="Dashboard" style="height: 30px;">
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://e7.pngegg.com/pngimages/38/837/png-clipart-accounts-receivable-inventory-payment-accounts-payable-others-miscellaneous-text.png" class="nav-icons" alt="Receivables" style=" height: 30px;">
+                            Receivables
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://thumbs.dreamstime.com/b/well-organized-fully-editable-box-delivery-easy-returns-return-icon-any-use-like-print-media-web-commercial-kind-153727418.jpg" class="nav-icons" alt="Returns" style=" height: 35px;">
+                            Returns
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://www.shutterstock.com/image-vector/user-base-icon-line-pictogram-600nw-2277629105.jpg" class="nav-icons" alt="Customers" style=" height: 35px;">
+                            Customers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://cdn-icons-png.flaticon.com/512/8912/8912477.png" class="nav-icons" alt="Payable" style="height: 35px;">
+                            Payable
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://as2.ftcdn.net/v2/jpg/02/22/84/83/1000_F_222848351_ToBcaMDrSee68ySWbsgkgZu0KUdP8KMS.jpg" class="nav-icons" alt="Sales" style="height: 40px">
+                            Sales
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7078/7078214.png" class="nav-icons" alt="Inventory" style="height: 35px">
+                            Inventory
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://cdn-icons-png.flaticon.com/512/243/243718.png" class="nav-icons" alt="Imports" style="height: 35px">
+                            Imports
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://www.shutterstock.com/image-vector/handy-linear-icon-depicting-ticket-260nw-2466408621.jpg" class="nav-icons" alt="Cutting Tickets" style="height: 35px;">
+                            Cutting Tickets
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://img.freepik.com/premium-vector/edi-icon-electronic-data-interchange-line-design_116137-7849.jpg" class="nav-icons" alt="EDI" style="height:35px">
+                            EDI
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">
+                            <img src="https://img.freepik.com/premium-vector/store-icon-logo-vector-illustration_598213-5580.jpg" class="nav-icons" alt="Showroom" style="height: 35px;">
+                            Showroom
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row border-none;">
+            <!-- Sidebar -->
+            <div class="col-md-2">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Reports</a>
+                    <a href="#" class="list-group-item list-group-item-action">Company Snapshot</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cut & Sold Lookup</a>
+                    <a href="#" class="list-group-item list-group-item-action">Inventory Snap Shot</a>
+                    <a href="#" class="list-group-item list-group-item-action">balance to sell sales summary </a>
+                    <a href="#" class="list-group-item list-group-item-action">open orders to pick</a>
+                    <a href="#" class="list-group-item list-group-item-action">period comparison Report</a>
+                    <a href="#" class="list-group-item list-group-item-action">SR availability</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sales Forecast Report</a>
+                    <a href="#" class="list-group-item list-group-item-action">Detailed Period comparison Report</a>
+                    <a href="#" class="list-group-item list-group-item-action">Style Cost Report</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sales Person</a>
+                    <a href="#" class="list-group-item list-group-item-action">Shipping</a>
+                    <a href="#" class="list-group-item list-group-item-action">Recieving money</a>
+                    <a href="#" class="list-group-item list-group-item-action">Style availability</a>
+                    <a href="#" class="list-group-item list-group-item-action">purchase order report </a>
+                    <a href="#" class="list-group-item list-group-item-action">Shipping report</a>
+                    <a href="#" class="list-group-item list-group-item-action">Traffic report</a>
+                    <a href="#" class="list-group-item list-group-item-action">image cut & solid Report</a>
+                    <a href="#" class="list-group-item list-group-item-action">Style Sheets</a>
+                    
+
+                    
+                </div>
+            </div>
+
+
+
+
+
+
+            
+
+        
+            <div class="col-md-10">
+                <div class="row">
+            
+                    <div class="col-md-3">
+                        <div class="card card-custom p-3 mb-4">
+                            <!-- <img src="https://static.vecteezy.com/system/resources/thumbnails/007/509/026/small_2x/a-three-dimensional-dollar-symbol-american-currency-linear-icon-sign-hand-drawn-black-and-white-illustration-isolated-on-a-white-background-vector.jpg" alt="logo" style= "height: 50px; width: 45px; position: relative; margin-left: auto;"> -->
+                            <h5>Total Revenue</h5>
+                            <p>$32,350.00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-custom p-3 mb-4">
+                            <h5>Total Expenses</h5>
+                            <p>$6000</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-custom p-3 mb-4">
+                            <h5>Accounts Receivable</h5>
+                            <p>$56,034.00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card card-custom p-3 mb-4">
+                            <h5>Accounts Payable</h5>
+                            <p>$67,083.00</p>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                   
+                        <div class="col-md-3">
+                            <div class="card card-custom p-3 mb-4">
+                                <h5>Items Missing Images</h5>
+                                <p>3,476</p>
+
+                                
+                            </div>
+                            
+                            
+                            
+                            
+                </div>
+
+               
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card card-custom p-3 mb-4">
+                            <h5>Invoices</h5>
+                            <canvas id="invoicesChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card card-custom p-3 mb-4">
+                            <h5>Sales Forecast</h5>
+                            <canvas id="salesForecastChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden" style="align-items: center;">Loading...</span>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    
+    <script>
+        // Invoices Chart
+        var invoicesCtx = document.getElementById('invoicesChart').getContext('2d');
+        var invoicesChart = new Chart(invoicesCtx, {
+            type: 'line',
+            data: {
+                labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+                datasets: [{
+                    label: 'This week',
+                    data: [12000, 19000, 30000, 50000, 20000, 30000, 45000],
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 2,
+                    fill: false
+                }, {
+                    label: 'Last week',
+                    data: [22000, 29000, 40000, 35000, 25000, 20000, 40000],
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 2,
+                    fill: false
+                }]
+            },
+            options: {
+                responsive: true,
+            }
+        });
+
+        // Sales Forecast Chart
+        var salesCtx = document.getElementById('salesForecastChart').getContext('2d');
+        var salesForecastChart = new Chart(salesCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+                datasets: [{
+                    label: 'Weighted',
+                    data: [30000, 40000, 35000, 50000, 55000, 40000, 45000],
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'Won',
+                    data: [15000, 20000, 25000, 30000, 32000, 22000, 28000],
+                    backgroundColor: 'rgba(255, 206, 86, 0.5)',
+                    borderColor: 'rgba(255, 206, 86, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+            }
+        });
+    </script>
+</body>
+</html>
